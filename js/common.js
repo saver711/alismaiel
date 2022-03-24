@@ -1,0 +1,1 @@
+$('.scrollTo').on('click',function(){$('html, body').animate({scrollTop:$($(this).data('go')).offset().top-100},300);$(this).addClass('active').siblings().removeClass('active');})
